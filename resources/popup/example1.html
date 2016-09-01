@@ -5,9 +5,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="//code.jquery.com/mobile/git/jquery.mobile-git.min.css" />
 	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="//code.jquery.com/mobile/git/jquery.mobile-git.min.js"></script>
 	<style>
 	html, body { padding: 0; margin: 0; }
 	html, .ui-mobile, .ui-mobile body {
@@ -23,11 +23,11 @@
 </head>
 
 <body>
-<div data-role="page" style="max-height:90px; min-height:90px;">
+<div data-ui-role="page" style="max-height:90px; min-height:90px;">
 	<div role="main" class="ui-content">
-		<a href="#popupBasic" data-rel="popup" data-role="button" data-inline="true">Open Popup</a>
+		<a href="#popupBasic" data-ui-rel="popup" class="ui-button ui-corner-all ui-shadow">Open Popup</a>
 
-        <div data-role="popup" id="popupBasic">
+        <div data-ui-role="popup" id="popupBasic">
 			<p>This is a completely basic popup, no options set.</p>
 		</div>
 	</div>

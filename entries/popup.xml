@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="../entries2html.xsl" ?>
-<entry name="popup" namespace="fn" type="widget" widgetnamespace="mobile" event-prefix="popup" init-selector=":jqmData(role=&#39;popup&#39;)">
+<entry name="popup" namespace="fn" type="widget" widgetnamespace="mobile" event-prefix="popup">
 	<title>Popup Widget</title>
 	<desc>Opens content in a popup.</desc>
 	<longdesc>
 		<h2>Popups</h2>
-		<p>To create a popup, add the <code>data-role="popup"</code> attribute to a div with the popup contents. Then create a link with the <code>href</code> set to the <code>id</code> of the popup div, and add the attribute <code>data-rel="popup"</code> to tell the framework to open the popup when the link is tapped. This is a similar markup pattern to the <a href="../dialog/">dialog</a> widget. A popup div has to be nested inside the same page as the link.</p>
+		<p>To create a popup, add the <code>data-ui-role="popup"</code> attribute to a div with the popup contents. Then create a link with the <code>href</code> set to the <code>id</code> of the popup div, and add the attribute <code>data-ui-rel="popup"</code> to tell the framework to open the popup when the link is tapped.</p>
 
 <pre><code><![CDATA[
-<a href="#popupBasic" data-rel="popup">Open Popup</a>
+<a href="#popupBasic" data-ui-rel="popup">Open Popup</a>
 
-<div data-role="popup" id="popupBasic">
+<div data-ui-role="popup" id="popupBasic">
 	<p>This is a completely basic popup, no options set.</p>
 </div>
 ]]></code></pre>
